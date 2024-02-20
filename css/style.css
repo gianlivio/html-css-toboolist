@@ -1,12 +1,48 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    }
+
+
+/* common */
+body{
     font-family: Arial, sans-serif;
+    background-color: #fff;
 }
 
+.container {
+    width: 80%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+/* header del sito */
 .website-header {
     background-color: lightgray; 
     padding: 10px 0; 
     text-align: center; 
     box-shadow: 0 4px 6px lightgrey; 
   }
+
+/* barra add task */
+   .navbar{
+    background-color: lightgrey;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+   }
+  
+/* bottone */
+  .task-input {
+    color: aliceblue;
+    background-color: blue;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  
