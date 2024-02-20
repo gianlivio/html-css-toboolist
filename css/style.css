@@ -11,12 +11,6 @@ body{
     background-color: #fff;
 }
 
-.container {
-    width: 80%;
-    background-color: white;
-    margin: 0 auto;
-    margin-top: 40px;
-}
 
 
 /* header del sito */
@@ -27,14 +21,21 @@ body{
     box-shadow: 0 4px 6px lightgrey; 
   }
 
-/* barra add task */
-   .navbar{
+
+  /* contenitore sezione add task */
+.container {
+    width: 80%;
     background-color: lightgrey;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 0 auto;
+    margin-top: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 4px;
     padding: 20px;
     text-align: center;
-   }
-  
+}
+
+    
 /* bottone */
   .task-input {
     color: aliceblue;
@@ -42,7 +43,10 @@ body{
     padding: 10px;
     margin-right: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 8px;
+    height: 10px;
+    vertical-align: middle;
+
   }
 
   
