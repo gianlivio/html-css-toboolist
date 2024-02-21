@@ -15,6 +15,7 @@
     <!-- header -->
     <header class="website-header">
         <img src="./img/logo.png" alt="website logo">
+        <span>Toboolist</span>
     </header>
     <!-- /header -->
 
@@ -24,38 +25,86 @@
         <div class="container">
             <!-- add task area -->
 
-            <nav class="navbar">
-                <div>
-                    <input type="text" placeholder="es: Fare la spesa...">
-                    <button class="task-input" type="button">Add Task</button>
-                </div>
-            </nav>
-        </div>
+
+            <div class="top">
+                <input type="text" placeholder="es: Fare la spesa...">
+                <button>Add Task</button>
+            </div>
+
+       
         <!-- /add task area -->
 
-        <!-- lista annidata -->
-        <div class="container2">
-            <!-- task precedenti -->
-            <h2 class="task-category">TASK PRECEDENTI</h2>
-            <ul class="task-list">
-                <li>Quarterly Newsletter <span class="tag editorial">Editorial</span></li>
+        <!-- lista  -->
+        <div class="list">
+
+            <ul class="main list">
+                <li>
+                    <h3>&#10148; Task precedenti</h3>
+                    <ul class="inner-list">
+                        <li>
+                            <span class="circle check">&check;</span>
+                            <span>Quaterly newsletter</span>
+                            <span>Editorial</span>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>&#10148; Oggi</h3>
+                    <ul class="inner-list">
+                        <li>
+                            <span class="circle check">&check;</span>
+                            <span>Recruiting blog posts</span>
+                            <span>Editorial</span>
+                        </li>
+                        <li>
+                            <span class="circle cross">&cross;</span>
+                            <span>QMobileapp launch</span>
+                            <span>Q1 Goals</span>
+                        </li>
+                        <li>
+                            <span class="circle check">&check;</span>
+                            <span>Interview John H.</span>
+                            <span>Recruiting</span>
+                        </li>
+                        <li>
+                            <span class="circle check">&check;</span>
+                            <span>Summit update to mobile storefronts</span>
+                            <span>Mobile</span>
+                        </li>
+                        
+                    </ul>
+                </li>
+                <li>
+                    <h3>&#10148; Prossimi giorni</h3>
+                    <ul class="inner-list">
+                        <li>
+                            <span class="circle cross">&cross;</span>
+                            <span>Schedule meeting with Alex</span>
+                
+                        </li>
+                        <li>
+                            <span class="circle check">&check;</span>
+                            <span>Homepage refresh</span>
+                            <span>Website</span>
+                        </li>
+                        <li>
+                            <span class="circle check">&check;</span>
+                            <span>Onboard new Sales team members</span>
+                            <span>Sales</span>
+                        </li>
+                        <li>
+                            <span class="circle check">&check;</span>
+                            <span>Review editorial calendar</span>
+                            <span>Editorial</span>
+                        </li>
+                </li>
+
+
             </ul>
-            <!-- oggi -->
-            <h2 class="task-category">OGGI</h2>
-            <ul class="task-list">
-                <li>Recruiting blog post <span class="tag editorial">Editorial</span></li>
-                <li>Mobile app launch <span class="tag editorial">Editorial</span></li>
-                <li>Interview John H. <span class="tag editorial">Editorial</span></li>
-                <li>Summit update to mobile storefronts <span class="tag editorial">Editorial</span></li>
-            </ul>
-            <!-- prossimi giorni -->
-            <h2 class="task-category">PROSSIMI GIORNI</h2>
-            <ul class="task-list">
-                <li>Schedule meeting with Alex <span class="tag editorial">Editorial</span></li>
-                <li>Homepage refresh <span class="tag editorial">Editorial</span></li>
-                <li>Onboard new Sales team members<span class="tag editorial">Editorial</span></li>
-                <li>Review editorial calendar<span class="tag editorial">Editorial</span></li>
-            </ul>
+
+
+
+
 
         </div>
         <!-- /lista annidata -->
