@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta name="description" content="Una semplice applicazione web per gestire una lista di attività.">
     <!-- link css -->
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>To-Do List</title>
 </head>
 
 <body>
 
     <!-- header -->
     <header class="website-header">
-        <img src="./img/logo.png" alt="website logo">
+        <img src="./img/logo.png" alt="Logo del sito">
         <span>Toboolist</span>
     </header>
     <!-- /header -->
@@ -23,94 +23,82 @@
     <!-- main -->
     <main>
         <div class="container">
-            <!-- add task area -->
-
-
+            <!-- area aggiunta attività -->
             <div class="top">
-                <input type="text" placeholder="es: Fare la spesa...">
-                <button>Add Task</button>
+                <label for="new-task">Aggiungi una nuova attività:</label>
+                <input id="new-task" type="text" placeholder="es: Fare la spesa...">
+                <button type="button">Aggiungi Attività</button>
             </div>
+            <!-- /area aggiunta attività -->
 
-       
-        <!-- /add task area -->
-
-        <!-- lista  -->
-        <div class="list">
-
-            <ul class="main list">
-                <li>
-                    <h3>&#10148; Task precedenti</h3>
-                    <ul class="inner-list">
-                        <li>
-                            <span class="circle check">&check;</span>
-                            <span>Quaterly newsletter</span>
-                            <span>Editorial</span>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <h3>&#10148; Oggi</h3>
-                    <ul class="inner-list">
-                        <li>
-                            <span class="circle check">&check;</span>
-                            <span>Recruiting blog posts</span>
-                            <span>Editorial</span>
-                        </li>
-                        <li>
-                            <span class="circle cross">&cross;</span>
-                            <span>QMobileapp launch</span>
-                            <span>Q1 Goals</span>
-                        </li>
-                        <li>
-                            <span class="circle check">&check;</span>
-                            <span>Interview John H.</span>
-                            <span>Recruiting</span>
-                        </li>
-                        <li>
-                            <span class="circle check">&check;</span>
-                            <span>Summit update to mobile storefronts</span>
-                            <span>Mobile</span>
-                        </li>
-                        
-                    </ul>
-                </li>
-                <li>
-                    <h3>&#10148; Prossimi giorni</h3>
-                    <ul class="inner-list">
-                        <li>
-                            <span class="circle cross">&cross;</span>
-                            <span>Schedule meeting with Alex</span>
-                
-                        </li>
-                        <li>
-                            <span class="circle check">&check;</span>
-                            <span>Homepage refresh</span>
-                            <span>Website</span>
-                        </li>
-                        <li>
-                            <span class="circle check">&check;</span>
-                            <span>Onboard new Sales team members</span>
-                            <span>Sales</span>
-                        </li>
-                        <li>
-                            <span class="circle check">&check;</span>
-                            <span>Review editorial calendar</span>
-                            <span>Editorial</span>
-                        </li>
-                </li>
-
-
-            </ul>
-
-
-
-
-
+            <!-- lista attività -->
+            <div class="list">
+                <ul class="main-list">
+                    <li>
+                        <h3>&#10148; Task precedenti</h3>
+                        <ul class="inner-list">
+                            <li>
+                                <span class="circle check">&check;</span>
+                                <span>Quaterly newsletter</span>
+                                <span>Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>&#10148; Oggi</h3>
+                        <ul class="inner-list">
+                            <li>
+                                <span class="circle check">&check;</span>
+                                <span>Recruiting blog posts</span>
+                                <span>Editorial</span>
+                            </li>
+                            <li>
+                                <span class="circle cross">&cross;</span>
+                                <span>QMobileapp launch</span>
+                                <span>Q1 Goals</span>
+                            </li>
+                            <li>
+                                <span class="circle check">&check;</span>
+                                <span>Interview John H.</span>
+                                <span>Recruiting</span>
+                            </li>
+                            <li>
+                                <span class="circle check">&check;</span>
+                                <span>Summit update to mobile storefronts</span>
+                                <span>Mobile</span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>&#10148; Prossimi giorni</h3>
+                        <ul class="inner-list">
+                            <li>
+                                <span class="circle cross">&cross;</span>
+                                <span>Schedule meeting with Alex</span>
+                            </li>
+                            <li>
+                                <span class="circle check">&check;</span>
+                                <span>Homepage refresh</span>
+                                <span>Website</span>
+                            </li>
+                            <li>
+                                <span class="circle check">&check;</span>
+                                <span>Onboard new Sales team members</span>
+                                <span>Sales</span>
+                            </li>
+                            <li>
+                                <span class="circle check">&check;</span>
+                                <span>Review editorial calendar</span>
+                                <span>Editorial</span>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /lista attività -->
         </div>
-        <!-- /lista annidata -->
     </main>
     <!-- /main -->
-
 
 </body>
 
